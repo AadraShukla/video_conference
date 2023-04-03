@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:video_conference/video_call.dart';
 
+// ignore: must_be_immutable
 class JoinCode extends StatelessWidget {
   TextEditingController controller = TextEditingController();
   @override 
@@ -52,8 +52,8 @@ class JoinCode extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: ElevatedButton(
+                // ignore: empty_statements
                 onPressed: (){
-                  Get.to(VideoCall());
                 },
                 child: Text("Join"),
                 style: ElevatedButton.styleFrom(
