@@ -19,8 +19,8 @@ class JoinCode extends StatelessWidget {
             ),
             ),
             SizedBox(height:20),
-            Image.asset(
-              "image/joincode.png",
+            Image.network(
+              "https://user-images.githubusercontent.com/67534990/127776450-6c7a9470-d4e2-4780-ab10-143f5f86a26e.png",
               fit: BoxFit.cover,
               height: 100,
             ),

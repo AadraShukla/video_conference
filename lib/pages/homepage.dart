@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Image.asset("images\home.png")
+          Image.network("https://user-images.githubusercontent.com/67534990/127524449-fa11a8eb-473a-4443-962a-07a3e41c71c0.png")
         ]),
     );
   }

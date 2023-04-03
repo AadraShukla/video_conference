@@ -18,8 +18,8 @@ class NewMeeting extends StatelessWidget {
                 onTap: Get.back,
               ),
               ),
-              Image.asset(
-              "image/newm.png",
+              Image.network(
+              "https://user-images.githubusercontent.com/67534990/127776392-8ef4de2d-2fd8-4b5a-b98b-ea343b19c03e.png",
               fit: BoxFit.cover,
               height: 100,
             ),
@@ -39,7 +39,7 @@ class NewMeeting extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.link),
                   title: SelectableText(
-                    "",
+                    "abc",
                     style: TextStyle(
                       fontWeight: FontWeight.w300
                     )
